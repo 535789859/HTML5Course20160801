@@ -1,0 +1,32 @@
+
+#container {
+    border: solid;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+#content {
+    width: 600px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.img-container {
+    width: 200px;
+    height: 150px;
+    float: left;
+}

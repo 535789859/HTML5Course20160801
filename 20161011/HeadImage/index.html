@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="node_modules/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" href="node_modules/jqueryui/jquery-ui.theme.min.css">
+
+    <script src="node_modules/jqueryui/external/jquery/jquery.js"></script>
+    <script src="node_modules/jqueryui/jquery-ui.min.js"></script>
+
+</head>
+<body>
+<button id="btn-show-camera">自拍头像</button>
+<div id="camera">
+    <video autoplay="autoplay" width="400" height="300" id="video"></video>
+    <button id="btn-snap">拍照</button>
+</div>
+<div id="edit-photo-container">
+    <canvas style="display: block;" id="canvas" width="400" height="300"></canvas>
+    <canvas style="display: inline-block;" id="preview" width="200" height="200"></canvas>
+    <button id="btn-save-image">保存图片</button>
+</div>
+<script src="ClipRect.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
